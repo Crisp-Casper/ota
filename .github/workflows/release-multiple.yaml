@@ -16,9 +16,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - device-id: tegu # Pixel 9 Pro XL
-            magisk-preinit-device: sda10
-          - device-id: caiman # Pixel 9 Pro
+          - device-id: tegu # Pixel 9a
             magisk-preinit-device: sda10
           
 #          - device-id: akita # Pixel 8a # https://github.com/Enovale/rooted-graphene/blob/4bb6f99cc0e1c22acd4bc71d6662ae3d9059849a/.github/workflows/release-multiple.yaml#L23 
